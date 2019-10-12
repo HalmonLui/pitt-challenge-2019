@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.pill-image {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.capture-button {
+  margin: 20px;
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.capture-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.text-container {
+  box-shadow: 3px 3px 10px gray;
+  padding: 50px;
+  margin: 20px;
+  width: 500px;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.text-container p {
+  font-size: 30px;
+}
